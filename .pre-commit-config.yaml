@@ -1,0 +1,7 @@
+  repos:
+   # In order to get all the hooks updated to the latest version, run "pre-commit autoupdate"
+   - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+     rev: v2.4.0
+     hooks:
+       - id: pretty-format-kotlin
+         args: [--autofix]
